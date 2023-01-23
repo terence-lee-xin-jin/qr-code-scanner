@@ -1,4 +1,4 @@
-# HashGenerator
+# QR Code Scanner
 
 A simple cross-platform app (Android & iOS) for QR Code Scanning. It also allows the viewing of previously scanned QR Code links.
 
