@@ -1,0 +1,30 @@
+{
+  "name": "com.terence.qr_code_scanner",
+  "displayName": "QrCodeScanner",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^10.1.2",
+    "cordova-plugin-barcodescanner": "^0.7.4",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-sqlite-storage": "^6.1.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-barcodescanner": {}
+    }
+  }
+}

@@ -1,0 +1,46 @@
+/*
+    Author: Terence Lee
+*/
+
+#main-body{
+    width: 100%;
+   
+    text-align: center;
+}
+
+
+#top-header{
+    background-color: #00ACC1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+
+}
+
+
+#sample-qr-code-image{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: block;
+}
+
+#mid-page-horizontal-divider{
+    border-top: 1px solid black;
+    
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    padding-top: 15px;
+
+
+}
+
+
+
+

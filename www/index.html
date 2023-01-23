@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+    Author: Terence Lee
+    Purpose: Allows users to scan QR Code + View links of previously scanned QR Codes
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+   
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        
+        <title>QR Code Scanner By Terence Lee</title>
+    </head>
+    <body>
+        <div id="main-body" class="app">
+            <header id="top-header">
+                <div class="fs-2 fw-bold">QR Code Scanner</div>
+                <span class="fs-5">By Terence Lee</span>
+            </header>
+            
+            <img id="sample-qr-code-image" src="img/sample-qr-code.png" />
+          
+            <button id="scan-qr-code-button" class="btn btn-primary btn-lg btn-block mx-4">
+                Click to Scan a QR Code
+            </button>
+            
+            <div id="mid-page-horizontal-divider"></div>
+
+            <div >
+                <h4>Recent QR Code Links</h4>
+                <div id="recent-qr-code-links-container">
+
+                </div>
+            </div>
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
