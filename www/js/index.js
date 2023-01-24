@@ -21,7 +21,7 @@ async function onDeviceReady() {
     let sqliteDatabaseHandle = getSqliteDatabaseHandle();
 
     try{
-        createTableIfNotExistPromise(sqliteDatabaseHandle);
+        await createTableIfNotExistPromise(sqliteDatabaseHandle);
 
         let arrayOfRecentScannedUrls = await retrieveRecentListOfScannedUrlPromise(sqliteDatabaseHandle);
         
